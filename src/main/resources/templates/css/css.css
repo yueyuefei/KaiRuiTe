@@ -418,7 +418,7 @@ opacity: 1; /*结尾状态 透明度为1*/
 .video_stylebg .hd li.on  .tuicon{ background-position: 0px -29px}
 .line_style h5{color: #828282; margin-top: 35px;}
 /**************产品服务*************/
-.product_style{}
+.product_style{background: url(../images/about_bg_4.jpg) no-repeat; position: relative; width: 100%}
 .product_style .title_name{ margin: 30px 0px; text-align: center; line-height: 26px; color: #A2A2A2 }
 .product_style .title_name h2{ font-size: 36px; margin-bottom: 15px; color: #000000}
 .product_bg{
