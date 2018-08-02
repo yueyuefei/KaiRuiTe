@@ -119,28 +119,7 @@
     </div>
   </div>
 </header>
-<div th:fragment="footer">
-  <!--联系方式-->
-  <div class="contact_phone">
-    <div class="container">
-      <div class="col-xs-6 col-sm-6 col-md-6 fadeInUp animated relative">
-        <div class="phone_info">
-          <em class="tel_icon fl">
-            <img src="images/phone_img_06.png" th:src="@{/images/phone_img_06.png}"></em>
-          <h3>服务咨询热线</h3>
-          <h2>0536-22222222</h2></div>
-      </div>
-      <div class="col-xs-6 col-sm-6 col-md-6 fadeInUp animated relative">
-        <div class="phone_info">
-          <em class="phone_icon fl">
-            <img src="images/phone_img_07.png" th:src="@{/images/phone_img_07.png}"></em>
-          <h3>移动服务热线:</h3>
-          <h2>137911111111
-            <span>（马）</span></h2>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div th:fragment="footer">
   <!--底部样式-->
   <footer class="footerBg">
     <div class="container">
@@ -170,162 +149,17 @@
           </dl>
         </div>
         <div class=" center weixin">
-          <img src="images/weixing-ma.jpg" th:src="@{/images/weixing-ma.jpg}" <h5>微信关注我们</h5></div>
+          <img src="images/weixing-ma.jpg" th:src="@{/images/weixing-ma.jpg}" <h5>微信联系我们</h5></div>
       </div>
     </div>
     <div class="CopyRight">
       <div class="container">
         <span class="footer_logo">
           <img src="images/footer_logo.png" th:src="@{/images/footer_logo.png}"></span>
-        <span class="CopyRight_name">CopyRight 软件名称 2016 版权所有 鲁ICP备xxxxxxxxx</span></div>
+        <span class="CopyRight_name">CopyRight 软件名称 2018 凯瑞特版权所有 皖ICP备xxxxxxxxx</span></div>
     </div>
   </footer>
   <div class="cndns-right">
-    <!-- <div class="cndns-right-meau meau-sev">
-    <a href="javascript:" class="cndns-right-btn"> <span
-    class="demo-icon">&#xe901;</span>
-    <p>
-    在线<br /> 客服
-    </p>
-    </a>
-    <div class="cndns-right-box">
-    <div class="box-border">
-    <div class="sev-t">
-    <span class="demo-icon">&#xe901;</span>
-    <p>
-    在线客服<i>服务时间：9:00-24:00</i>
-    </p>
-    <div class="clear"></div></div>
-    <div class="sev-b">
-    <h4>选择下列产品马上在线沟通：</h4>
-    <ul id="zixunUl">
-    <li><a href="javascript:void(0);">客服1</a></li>
-    <li><a href="javascript:void(0);">客服2</a></li>
-    <li><a href="javascript:void(0);">产品经理</a></li>
-    <li><a href="javascript:void(0);">技术支持</a></li>
-    <li><a href="javascript:void(0);">技术支持1</a></li>
-    <li><a href="javascript:void(0);">橙云主机</a></li>
-    <li><a href="javascript:void(0);">产品交易</a></li>
-    <li><a href="javascript:void(0);">其他产品</a></li>
-    <div class="clear"></div></ul>
-    </div>
-    <span class="arrow-right"></span></div>
-    </div>
-    </div> -->
-    <div class="cndns-right-meau meau-contact">
-      <a href="javascript:" class="cndns-right-btn">
-        <span class="demo-icon">&#xe902;</span>
-        <p>客服
-          <br />热线</p></a>
-      <div class="cndns-right-box">
-        <div class="box-border">
-          <div class="sev-t">
-            <span class="demo-icon">&#xe902;</span>
-            <p>400-123-4567
-              <br />
-              <i>7*24小时客服服务热线</i>
-            </p>
-            <div class="clear"></div>
-          </div>
-          <span class="arrow-right"></span>
-        </div>
-      </div>
-    </div>
-    <div class="cndns-right-meau meau-code">
-      <a href="javascript:" class="cndns-right-btn">
-        <span class="demo-icon">&#xe903;</span>
-        <p>关注
-          <br />微信</p></a>
-      <div class="cndns-right-box">
-        <div class="box-border">
-          <div class="sev-t">
-            <img src="images/weixing-ma.jpg" th:src="@{/images/weixing-ma.jpg}" />
-            <i>关注官方微信</i>
-          </div>
-          <span class="arrow-right"></span>
-        </div>
-      </div>
-    </div>
-    <div class="cndns-right-meau meau-top" id="top-back">
-      <a href="javascript:" class="cndns-right-btn" onclick="topBack()">
-        <span class="demo-icon">&#xe904;</span>
-        <i>顶部</i>
-      </a>
-    </div>
-  </div>
- </div>
-  <div th:fragment="footer1">
-  <!--底部样式-->
-  <footer class="footerBg">
-    <div class="container">
-      <div class="ptb40">
-        <div class="footTopL">
-          <dl class="clearfix">
-            <dt>关于我们</dt>
-            <dd>
-              <a href="#">联系地址</a></dd>
-            <dd>
-              <a href="#">公司介绍</a></dd>
-            <dd>
-              <a href="#">荣誉资质</a></dd>
-            <dd>
-              <a href="#">招聘信息</a></dd>
-          </dl>
-          <dl class="clearfix">
-            <dt>公司产品</dt>
-            <dd>
-              <a href="#">彩印纸箱</a></dd>
-            <dd>
-              <a href="#">牛皮纸箱</a></dd>
-            <dd>
-              <a href="#">瓦楞纸</a></dd>
-            <dd>
-              <a href="#">定制纸箱</a></dd>
-          </dl>
-        </div>
-        <div class=" center weixin">
-          <img src="images/weixing-ma.jpg" th:src="@{/images/weixing-ma.jpg}" <h5>微信关注我们</h5></div>
-      </div>
-    </div>
-    <div class="CopyRight">
-      <div class="container">
-        <span class="footer_logo">
-          <img src="images/footer_logo.png" th:src="@{/images/footer_logo.png}"></span>
-        <span class="CopyRight_name">CopyRight 软件名称 2016 版权所有 鲁ICP备xxxxxxxxx</span></div>
-    </div>
-  </footer>
-  <div class="cndns-right">
-    <!-- <div class="cndns-right-meau meau-sev">
-    <a href="javascript:" class="cndns-right-btn"> <span
-    class="demo-icon">&#xe901;</span>
-    <p>
-    在线<br /> 客服
-    </p>
-    </a>
-    <div class="cndns-right-box">
-    <div class="box-border">
-    <div class="sev-t">
-    <span class="demo-icon">&#xe901;</span>
-    <p>
-    在线客服<i>服务时间：9:00-24:00</i>
-    </p>
-    <div class="clear"></div></div>
-    <div class="sev-b">
-    <h4>选择下列产品马上在线沟通：</h4>
-    <ul id="zixunUl">
-    <li><a href="javascript:void(0);">客服1</a></li>
-    <li><a href="javascript:void(0);">客服2</a></li>
-    <li><a href="javascript:void(0);">产品经理</a></li>
-    <li><a href="javascript:void(0);">技术支持</a></li>
-    <li><a href="javascript:void(0);">技术支持1</a></li>
-    <li><a href="javascript:void(0);">橙云主机</a></li>
-    <li><a href="javascript:void(0);">产品交易</a></li>
-    <li><a href="javascript:void(0);">其他产品</a></li>
-    <div class="clear"></div></ul>
-    </div>
-    <span class="arrow-right"></span></div>
-    </div>
-    </div> -->
     <div class="cndns-right-meau meau-contact">
       <a href="javascript:" class="cndns-right-btn">
         <span class="demo-icon">&#xe902;</span>
